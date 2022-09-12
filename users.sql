@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Sep 12, 2022 at 04:17 AM
+-- Generation Time: Sep 12, 2022 at 04:32 AM
 -- Server version: 10.4.24-MariaDB
 -- PHP Version: 8.1.6
 
@@ -40,7 +40,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`username`, `displayname`, `password`, `phone`, `email`) VALUES
-('hoa123', 'Nguyễn Hoa', '1', '34546546', 'hoa@gmail.com');
+('hoa123', 'Nguyễn Hoa', 'c4ca4238a0b923820dcc509a6f75849b', '134235345', 'hoa@gmail.com');
 
 --
 -- Indexes for dumped tables
