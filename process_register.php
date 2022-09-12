@@ -4,7 +4,7 @@ try {
 
     $username = addslashes(trim($_POST['username']));
     $displayName = addslashes(trim($_POST['displayname']));
-    $password = addslashes(trim($_POST['password']));
+    $password = md5(addslashes(trim($_POST['password'])));
     $email = addslashes(trim($_POST['email']));
     $phone = addslashes(trim($_POST['phone']));
 

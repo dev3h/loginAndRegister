@@ -3,7 +3,7 @@ try {
    require './connect.php';
 
     $username = addslashes(trim($_POST['username']));
-    $password = addslashes(trim($_POST['password']));
+    $password = md5(addslashes(trim($_POST['password'])));
 
 
          $sql = "SELECT * FROM users WHERE username = '$username' AND password = '$password'";
